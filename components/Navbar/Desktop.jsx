@@ -21,7 +21,7 @@ const Desktop = () => {
     return (
         <div className=" flex flex-col     dark:bg-transparent ">
             {/* Navbar */}
-            <nav className="fixed top-0 left-0 z-50 w-full bg-white">
+            <nav className="fixed top-0 left-0 z-50 w-full bg-white h-auto">
                 <div className="container mx-auto flex items-center justify-between ">
                     <Link href="/" >
                         <Image src={pin} style={{ borderRadius: 15 }} className=" h-16 w-auto cursor-pointer" />
@@ -68,32 +68,32 @@ const Desktop = () => {
                                     className="z-10 bg-white divide-y divide-gray-100 rounded-xl shadow w-44 dark:bg-gray-700 absolute mt-2"
                                 >
                                     <ul
-                                        className="py-2 text-sm text-gray-700 dark:text-gray-200"
+                                        className="p-6 text-sm text-gray-700 dark:text-gray-200"
                                         aria-labelledby="dropdownRightButton"
                                     >
                                         <li>
                                             <Link
                                                 href="/erpServices"
 
-                                                className={router.pathname == "/erpServices" ? "active  text-[1rem]" : "nav-link font-thin block[1rem]x-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"}
+                                                className={router.pathname == "/erpServices" ? "active  text-[1rem]" : "nav-link font-thin block[1rem]x-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"}
                                             >
-                                                <h1>ERP Services</h1>
+                                                <h1 className='p-1'>ERP Services</h1>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link
                                                 href="/industrySolution"
-                                                className={router.pathname == "/industrySolution" ? "active  text-[1rem]" : "nav-link font-thin block[1rem]x-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"}
+                                                className={router.pathname == "/industrySolution" ? "active  text-[1rem]" : "nav-link font-thin block[1rem]x-4 mt-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"}
                                             >
-                                                <h1>Industry Solutions</h1>
+                                                <h1 className='p-1'>Industry Solutions</h1>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link
                                                 href="/commonHardware"
-                                                className={router.pathname == "/commonHardware" ? "active  text-[1rem]" : "nav-link font-thin block[1rem]x-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"}
+                                                className={router.pathname == "/commonHardware" ? "active  text-[1rem]" : "nav-link font-thin block[1rem]x-4 mt-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"}
                                             >
-                                                <h1>Common Services</h1>
+                                                <h1 className='p-1'>Common Services</h1>
                                             </Link>
                                         </li>
                                     </ul>

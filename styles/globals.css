@@ -123,6 +123,22 @@ body {
 
 }
 
+/* CSS */
+.hover\:backdrop-blur-xl:hover .hidden {
+  display: block;
+}
+
+@media (max-width: 768px) {
+
+  .bg-img,
+  .mbg-img {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    width: 90%;
+    margin: 2rem;
+    /* Adjust other styles as needed for better mobile display */
+  }
+}
 
 .box {
   font-family: talking;

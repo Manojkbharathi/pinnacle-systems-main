@@ -34,9 +34,15 @@ const Desktop = () => {
                     <div className="flex items-center justify-start pl-14 gap-6">
 
                     </div>
-                    <nav className="flex flex-col flex-1 w-64 p-10 mt-4 gap-3 backdrop-blur-lg">
+                    <nav className="flex flex-col flex-1 w-64 p-10 mt-4 gap-3 bg-white">
                         <Link href="/" className="flex items-center space-x-2">
                             <span className='text-lg font-bold'>Home</span>
+                        </Link>
+                        <Link href="/about" className="flex items-center space-x-2">
+                            <span className='text-lg font-bold'>About us</span>
+                        </Link>
+                        <Link href="/team" className="flex items-center space-x-2">
+                            <span className='text-lg font-bold'>Team</span>
                         </Link>
                         <div className="relative">
                             <button
@@ -76,9 +82,7 @@ const Desktop = () => {
                                 </div>
                             )}
                         </div>
-                        <Link href="/about" className="flex items-center space-x-2">
-                            <span className='text-lg font-bold'>About us</span>
-                        </Link>
+
                         <Link href="/career" className="flex items-center space-x-2">
                             <span className='text-lg font-bold'>Career</span>
                         </Link>
