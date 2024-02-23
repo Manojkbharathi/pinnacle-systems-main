@@ -12,7 +12,7 @@ const Card = () => {
     return (
         <div className="">
             <NavLanding />
-            <h1 className='text-center  md:text-6xl text-3xl font-bold text-transparent fontjb bg-clip-text bg-gradient-to-br from-blue-500 via-blue-900 to-blue-500'>Our Services</h1>
+            <h1 className='text-center  md:text-3xl text-xl font-bold text-transparent fontjb bg-clip-text bg-gradient-to-br from-blue-500 via-blue-900 to-blue-500 pt-4'>Our Services</h1>
             <p className='text-black font-semibold p-4 md:mt-[20px] text-xs md:text-lg text-center'>"Delivering tailored websites and <span className='text-transparent bg-clip-text bg-gradient-to-br from-blue-500 via-blue-900 to-blue-500'>software solutions</span> for your industry, empowering businesses with seamless digital transformation"</p>
             <div className="flex flex-col md:flex-row gap-5 items-center justify-center md:pt-[50px]">
                 <div className='relative p-4 md:p-0 md:border md:border-gray-200 rounded-t-lg'>
@@ -131,7 +131,7 @@ const Card = () => {
                     </div>
                 </div>
             </div>
-        
+
         </div>
     );
 };

@@ -24,7 +24,7 @@ const Desktop = () => {
             <nav className="fixed top-0 left-0 z-50 w-full bg-white">
                 <div className="container mx-auto flex items-center justify-between ">
                     <Link href="/" >
-                        <Image src={pin} style={{ borderRadius: 15 }} className=" h-20 w-auto cursor-pointer" />
+                        <Image src={pin} style={{ borderRadius: 15 }} className=" h-16 w-auto cursor-pointer" />
                     </Link>
                     <div className="hidden lg:flex space-x-4 ">
                         {/* Add more menu items as needed */}

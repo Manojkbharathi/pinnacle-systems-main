@@ -8,10 +8,10 @@ const Slider = () => {
   return (
     <div className='flex flex-col items-center w-screen'>
       <hr className="my-10 h-px flex border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-900 to-transparent opacity-70 dark:opacity-100" />
-      <div className='h-auto flex flex-col md:flex-row  items-center justify-center gap-4'>    <Image src={img1} className=" relative ml-9 rounded-lg " width={460} height={400} style={{ float: "left" }} />
-        <div className='container w-1/4 items-stretch mx-4 p-4 rounded-md text-adjust shadow-lg h-full'> <h1 className='text-center	 fontjb md:text-3xl text-xl md:leading-relaxed leading-tight  text-transparent bg-clip-text bg-gradient-to-br from-blue-700 via-blue-500 to-blue-900'>What we <span className='text-transparent bg-clip-text bg-gradient-to-br from-red-600 to-yellow-500'>Do</span></h1>
+      <div className='h-auto flex flex-col md:flex-row w-full items-center justify-center gap-4'>    <Image src={img1} className=" relative ml-9 rounded-lg " width={460} height={400} style={{ float: "left" }} />
+        <div className='container md:w-1/4 w-full items-stretch mx-4 p-4 rounded-md text-adjust shadow-lg h-full'> <h1 className='text-center	 fontjb md:text-3xl text-xl md:leading-relaxed leading-tight  text-transparent bg-clip-text bg-gradient-to-br from-blue-700 via-blue-500 to-blue-900'>What we <span className='text-transparent bg-clip-text bg-gradient-to-br from-red-600 to-yellow-500'>Do</span></h1>
 
-          <p className="text-[1rem] font-extralight p-2 md:w-full" >Pinnacle system provides modern, cloud-based and easy-to-use software solutions for Apparels & Textiles Industries. We specialise in enabling fashion manufacturing, sourcing and retailing companies to improve their lead times, costs and performance through technology
+          <p className="text-[1rem] font-extralight p-2 md:w-full w-full" >Pinnacle system provides modern, cloud-based and easy-to-use software solutions for Apparels & Textiles Industries. We specialise in enabling fashion manufacturing, sourcing and retailing companies to improve their lead times, costs and performance through technology
             .</p>
 
 
