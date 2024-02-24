@@ -112,7 +112,7 @@ const Team = () => {
                     <div className="check">
                         <i className="fas fa-check" />
                     </div>
-                    <h3 className=" text-2xl font-semibold name text-center">Client Experience</h3>
+                    <h3 className="text-2xl font-semibold name text-center">Client Experience</h3>
                     <p className='description text-center'>
 
                         Our customer-centric approach calls for smooth transition - right from understanding their requirements, developing the solutions, on time and the entirely reliable after support
