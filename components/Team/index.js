@@ -86,7 +86,8 @@ const Team = () => {
                             </div>
                             <h3 className="name underline">Satheesh Kumar, Project Head</h3>
                             <p className='description'>
-                                Satheesh heads the development at Pinnacle ERP. With over 12+ years of experience in product, architecture and full-stack development, he worked on multiple technology platforms related to application development and mobile apps.
+                                Satheesh heads the development at Pinnacle ERP. With over 12+ years of experience in product, architecture and full-stack development, he worked on multiple technology platforms related to application development and mobile apps. He has exposure to cutting-edge technologies & has worked with more no of clients to resolve their apprehensions and build confidence towards the products.
+
 
                             </p>
 
